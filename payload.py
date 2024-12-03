@@ -3,7 +3,7 @@ import os
 
 def read_source(file_name):
     """
-    C++ kaynak dosyasını oku.
+    read C++
     """
     with open(file_name, "rt") as source:
         return source.read()
